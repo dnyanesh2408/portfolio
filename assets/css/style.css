@@ -97,7 +97,7 @@ section{
     width: 100%;
 }
 .img-fluid{
-    /* border-radius: 50%; */
+    border-radius: 50%;
     height: 150px;
     width: auto;
 }
