@@ -183,6 +183,9 @@ section{
         font-size: 1rem;
         width: 96%;
     }
+    #about h3, #skill h3{
+        text-align: left;
+    }
     
 }
 
