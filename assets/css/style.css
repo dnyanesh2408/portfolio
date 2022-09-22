@@ -186,7 +186,11 @@ section{
     #about h3, #skill h3{
         text-align: left;
     }
-    
+}
+@media(max-width:768px){
+    #about h3, #skill h3{
+        text-align: left;
+    }
 }
 
 
