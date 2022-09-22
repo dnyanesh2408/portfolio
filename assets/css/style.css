@@ -155,7 +155,7 @@ section{
     color: rgb(219, 156, 74);
 }
 #get-in-touch{
-    font-size: medium;
+    font-size: small;
     font-weight: 400;
     margin-top: 2rem;
     /* margin-bottom: 1.5rem; */
@@ -174,7 +174,7 @@ section{
     background: var(--bs-gray);
     color: var(--bs-light);
     font-size: small;
-    margin: 1px;
+    margin: 2px;
 }
 
 #p{
