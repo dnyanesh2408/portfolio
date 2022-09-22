@@ -90,7 +90,7 @@ section{
     padding-bottom: 1rem;
 }
 .col-lg-8{
-    text-align: justify;
+    text-align: none;
 }
 
 #about h3, #skill h3{
@@ -217,6 +217,9 @@ a:hover {
     }
     #about h3, #skill h3{
         text-align: left;
+    }
+    #p{
+
     }
 }
 
