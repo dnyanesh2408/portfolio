@@ -180,6 +180,24 @@ section{
     color: #4b4b4b;
     font-family: 'Montserrat', sans-serif;
 }
+
+a {
+    /* color: #5a656e; */
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #dd5a92;
+    color: #d43076; */
+
+    /* color: rgb(3, 87, 183); */
+    color: rebeccapurple;
+    
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
+
 @media(max-width:720px){
     #about h3, #skill h3{
         text-align: left;
