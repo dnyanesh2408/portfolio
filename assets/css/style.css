@@ -94,7 +94,7 @@ section{
     text-align: none;
 }
 
-#about h3, #skill h3{
+#about h3, #skill h3, #project h3{
     color: #007bff;
 }
 .container{
@@ -220,7 +220,7 @@ a:hover {
         font-size: medium;
         width: 96%;
     }
-    #about h3, #skill h3{
+    #about h3, #skill h3, #project h3{
         text-align: left;
     }
 }
