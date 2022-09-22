@@ -180,6 +180,11 @@ section{
     color: #4b4b4b;
     font-family: 'Montserrat', sans-serif;
 }
+@media(max-width:720px){
+    #about h3, #skill h3{
+        text-align: left;
+    }
+}
 
 @media(max-width:576px) {
     .name{
@@ -196,10 +201,6 @@ section{
         text-align: left;
     }
 }
-@media(max-width:992px){
-    #about h3, #skill h3{
-        text-align: left;
-    }
-}
+
 
 
