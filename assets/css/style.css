@@ -206,11 +206,12 @@ a:hover {
 }
 
 @media(max-width:576px) {
-    .name{
+    .name, #p{
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
         /* font-size: 1rem; */
         font-size: medium;
-        font-family: 'Poppins', sans-serif;
+        
     }
     .home-content{
         font-family: 'Poppins', sans-serif;
@@ -221,9 +222,6 @@ a:hover {
     }
     #about h3, #skill h3{
         text-align: left;
-    }
-    #p{
-        font-size: medium;
     }
 }
 
