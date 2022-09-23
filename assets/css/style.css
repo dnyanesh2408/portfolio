@@ -265,6 +265,13 @@ a:hover {
         font-weight: 400;
         font-size: small;
     }
+    #blog-home{
+        padding-top: 10rem;
+    }
+    
+    .btn{
+        margin-bottom: 4rem;
+    }
 }
 
 
