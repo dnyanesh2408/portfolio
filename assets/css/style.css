@@ -13,7 +13,7 @@ font-family: 'Poppins', sans-serif; */
     padding: 0;
     margin: 0;
 }
-body, html {
+body, html{
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -57,6 +57,9 @@ body, html {
     color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+#logo:hover{
+    text-decoration: none;
 }
 hr{
     color: #fff;
@@ -216,6 +219,25 @@ a:hover {
     font-weight: bold;
     color: #6c6c6c;
     line-height: 0.2rem;
+}
+#project_details{
+    padding: 100px 10%;
+    /* color: #1036f2c4; */
+}
+.project_title{
+    color: #1036f2c4;
+}
+
+#btn{
+    margin-left: -0.8rem;
+    margin-bottom: 2rem;
+    font-size: small;
+    background-color: white;
+    border: 1px solid #343a40;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
 }
 
 @media(max-width:992px){
