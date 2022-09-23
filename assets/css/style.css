@@ -81,12 +81,10 @@ hr{
     border-bottom: none;
 }
 section{
-    /* padding: 50px 10%; */
-    padding: 50px 12%;
+    padding: 50px 10%;
+    /* padding: 50px 12%; */
     /* padding: 60px 10%; */
-    /* height: 100vh; */
-    /* display: flex; */
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 #intro{
     margin-top: 1rem;
