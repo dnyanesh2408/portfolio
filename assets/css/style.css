@@ -61,6 +61,7 @@ body, html{
 #logo:hover{
     text-decoration: none;
 }
+
 hr{
     color: #fff;
 }
@@ -75,7 +76,9 @@ hr{
     /* color: #444452d0; */
     /* color: #bd075fd0; */
     color: #c7c7c7f7;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    text-decoration: none;
+    border-bottom: none;
 }
 section{
     /* padding: 50px 10%; */
@@ -101,7 +104,7 @@ section{
     text-align: none;
 }
 
-#about h3, #skill h3, #project h3{
+#about h3, #skill h3, #project h3, #blog h3{
     color: #007bff;
 }
 .container{
@@ -172,7 +175,7 @@ section{
     text-decoration: none;
 }
 #get-in-touch a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     cursor: pointer;
     transition: all 0.5sec ease-in-out;
 }
@@ -206,10 +209,12 @@ a:hover {
     color: #d43076; */
 
     /* color: rgb(3, 87, 183); */
-    color: rebeccapurple;
-    
-    text-decoration: underline;
+    /* color: rebeccapurple; */
+    color: #00f;
+    /* text-decoration: underline; */
     transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #00f; /* or whatever colour you'd prefer */
+    /* outline: 3px solid black; */
 }
 .hr-footer{
     color: #444452;
@@ -220,6 +225,8 @@ a:hover {
     color: #6c6c6c;
     line-height: 0.2rem;
 }
+
+/* Not in used */
 #project_details{
     padding: 100px 10%;
     /* color: #1036f2c4; */
@@ -228,9 +235,17 @@ a:hover {
     color: #1036f2c4;
 }
 
+.view-all{
+    font-size: small;
+  }
+/* End Not in used */
+
 @media(max-width:992px){
-    #about h3, #skill h3, #project h3{
+    #about h3, #skill h3, #project h3, #blog h3{
         text-align: left;
+    }
+    .view-all{
+        font-size: small;
     }
 }
 
@@ -240,7 +255,6 @@ a:hover {
         font-weight: 400;
         /* font-size: 1rem; */
         font-size: medium;
-        
     }
     .home-content{
         /* font-family: 'Poppins', sans-serif; */
@@ -249,8 +263,12 @@ a:hover {
         font-size: medium;
         width: 96%;
     }
-    #about h3, #skill h3, #project h3{
+    #about h3, #skill h3, #project h3, #blog h3{
         text-align: left;
+    }
+    .view-all a{
+        font-weight: 400;
+        font-size: small;
     }
 }
 
