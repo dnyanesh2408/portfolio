@@ -69,7 +69,7 @@ hr{
     /* color: #444452d0; */
     /* color: #595959d0; */
     color: #fff;
-    margin-left: 4px;
+    margin: 4px;
     text-decoration: none;
 }
 .social-link a:hover{
@@ -96,7 +96,6 @@ section{
     /* padding-top: 0; */
     padding-top: 10rem;
 }
-
 .col-lg-4{
     padding-bottom: 1rem;
 }
@@ -146,19 +145,7 @@ section{
     color: #333333ba;
 }
 /* Currently not used */
-.btn{
-    background-color: rgb(61, 36, 202);
-    border-radius: 10px;
-    border-color: #fff;
-    font-size: medium;
-    font-weight: 400;
-    margin-top: 1.5rem;
-    padding: 5px;
-}
-.btn a{
-    color: #fff;
-    text-decoration: none;
-}
+
 /* End currently not used */
 
 .fa-hand-point-right{
@@ -237,9 +224,17 @@ a:hover {
 
 .view-all{
     font-size: small;
-  }
-/* End Not in used */
+}
 
+/* Blog Page Home */
+#blog-home{
+    padding-top: 8rem;
+}
+
+.btn{
+    margin-bottom: 2rem;
+}
+/* End Not in used */
 @media(max-width:992px){
     #about h3, #skill h3, #project h3, #blog h3{
         text-align: left;
