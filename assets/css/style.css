@@ -221,6 +221,7 @@ a:hover {
 .project_title{
     color: #1036f2c4;
 }
+/* End not in used */
 
 .view-all{
     font-size: small;
@@ -230,13 +231,78 @@ a:hover {
 #blog-home{
     padding-top: 8rem;
 }
-
+.first-blog-title{
+    padding-top: 2rem;
+}
+  .second-blog-title{
+    padding-top: 1rem;
+}
+  .third-blog-title{
+    padding-top: 1rem;
+    padding-bottom: 22rem;
+}
 .btn{
     font-size: small;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
 }
-/* End Not in used */
+
+/* Blog First Post Page */
+#blog-first-post{
+    padding-top: 8rem;
+}
+#hr-post{
+    color: #343a40;
+}
+#blog-title{
+    text-align: justify;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif; 
+}
+.post-date{
+    font-size: small;
+    color: #7c7c7c;
+}
+.post-date span{
+    border-bottom: 1px solid;
+    color: #7c7c7c;
+}
+#post-content{
+    color: #5c5c5c;
+}
+#post-link{
+    font-size: small;
+    color: teal;
+}
+#post-link a{
+    color: #fff;
+    text-decoration: none;
+} 
+#post-link a:hover {
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    border-bottom: none;
+    color: #c7c7c7f7;
+} 
+#post-content-head{
+    color: #000;
+}
+#note{
+    font-size: small;
+    color: #7c7c7c;
+}
+/* Second Post Page */
+#blog-second-post{
+    padding-top: 8rem;
+}
+  
+/* Third Post Page */
+  
+.third-post{
+    padding-top: 1rem;
+    padding-bottom: 22rem;
+}
+/* End Blog First Post Page */
 @media(max-width:992px){
     #about h3, #skill h3, #project h3, #blog h3{
         text-align: left;
