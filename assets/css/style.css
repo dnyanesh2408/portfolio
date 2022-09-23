@@ -203,8 +203,13 @@ a:hover {
     border-bottom: 1px solid #00f; /* or whatever colour you'd prefer */
     /* outline: 3px solid black; */
 }
+#footer{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    /* background-color: #000; */
+}
 .hr-footer{
-    color: #444452;
+    color: #000;
 }
 .footer p{
     font-family: 'Nunito', sans-serif;
