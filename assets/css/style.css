@@ -232,7 +232,9 @@ a:hover {
 }
 
 .btn{
+    font-size: small;
     margin-bottom: 2rem;
+    border-radius: 0.5rem;
 }
 /* End Not in used */
 @media(max-width:992px){
@@ -264,13 +266,6 @@ a:hover {
     .view-all a{
         font-weight: 400;
         font-size: small;
-    }
-    #blog-home{
-        padding-top: 10rem;
-    }
-    
-    .btn{
-        margin-bottom: 4rem;
     }
 }
 
