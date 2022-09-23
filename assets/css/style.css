@@ -96,6 +96,17 @@ section{
     /* padding-top: 0; */
     padding-top: 10rem;
 }
+#get-in-touch{
+    /* background: #0d6efd; */
+    background: #4407e0d3;
+    color: #f8f9fa;
+    border-radius: 10px;
+}
+#get-in-touch:hover{
+    /* background-color: #198754; */
+    background: #6d3bebfa;
+    transition: all 0.5s ease-in-out;
+}
 .col-lg-4{
     padding-bottom: 1rem;
 }
@@ -246,12 +257,15 @@ a:hover {
     padding-top: 1rem;
     padding-bottom: 22rem;
 }
+
 .btn{
     font-size: small;
+    color: #f8f9fa;
+    background-color: rgb(7, 89, 161);
     margin-bottom: 2rem;
-    border-radius: 0.5rem;
+    border-color: #444452;
+    border-radius: 5px;
 }
-
 /* Blog First Post Page */
 #blog-first-post{
     padding-top: 8rem;
