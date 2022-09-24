@@ -198,6 +198,40 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="contact section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+            <h3 class="text-center">CONTACT</h3>
+        </div>
+        <div class="col-lg-8">
+          <div class="contact-item">
+            <p><strong>Address</strong></p>
+            <p id="p"><i class="fa-solid fa-location-arrow"></i> Amravati, MH, IN, 444705</p>
+            </p>
+            <!-- <p><strong><a href="#" Onclick="email()" oncontextmenu="return false;">Contact</a></strong></p> -->
+
+            <p><strong>Contact</strong></p>
+
+            <section class="content container" id="contact">
+              <!-- Contact Form -->
+              <form action="" class="contact-form" id="contact-form">
+                  <input type="text" placeholder="Your Name" class="name" required>
+                  <input type="email" name="" id="" placeholder="Email Address.." class="email" required>
+                  <textarea name="" id="" cols="30" rows="2" placeholder="Write your message..." class="message"
+                      required></textarea>
+                  <input type="submit" value="Send" class="send-btn">
+              </form>
+          </section>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
 <!-- Footer -->
 <section id="footer">
   <hr class="hr-footer">
@@ -207,6 +241,17 @@
   </div>
 </section>
 <!-- End Footer -->
+
+<!-- Email Link Js -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<!-- Sweet Alert Js Link -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("zkaH74V2Ga85xW9fB");
+    })();
+</script>
 
 <!-- Aos Animation -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

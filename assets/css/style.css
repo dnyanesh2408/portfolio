@@ -115,7 +115,7 @@ section{
     text-align: none;
 }
 
-#about h3, #skill h3, #project h3, #blog h3{
+#about h3, #skill h3, #project h3, #blog h3, #contact h3{
     color: #007bff;
 }
 .container{
@@ -216,7 +216,54 @@ a:hover {
     /* outline: 3px solid black; */
 }
 /* Contact  */
-
+.fa-location-arrow{
+    font-size: small;
+}
+  
+/* Contact Form */
+#contact{
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+.contact-form {
+    max-width: 400px;
+    margin-left: -1rem;
+    width: 100%;
+    display: grid;
+    row-gap: 1rem;
+  
+}
+.contact-form input, .contact-form textarea{
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 10px;
+    color: black;
+    background: #f8f8f8;
+    border-radius: 0.4rem;
+}
+.contact-form .send-btn{
+    width: 100px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    padding: 10px;
+    background: var(--main-color);
+    cursor: pointer;
+}
+  
+.contact-form .send-btn{
+    border-radius: 10px;
+    color: white;
+    background: #7c7c7c;
+}
+.contact-form .send-btn:hover{
+    background: #546eff;
+    /* background: #d43076; */
+    transition: 0.3s all linear ;
+}
+/* End Contact Form */
 /* End Contact */
 
 #footer{
@@ -354,7 +401,7 @@ a:hover {
 }
 
 @media(max-width:992px){
-    #about h3, #skill h3, #project h3, #blog h3{
+    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
     .view-all{
@@ -376,7 +423,7 @@ a:hover {
         font-size: medium;
         width: 96%;
     }
-    #about h3, #skill h3, #project h3, #blog h3{
+    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
     .view-all a{

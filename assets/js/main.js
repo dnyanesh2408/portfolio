@@ -25,3 +25,49 @@ function topFunction() {
 }
 // End Back to Top Button
 
+
+// Email Js
+function validate() {
+  let name = document.querySelector(".name");
+  let email = document.querySelector(".email");
+  let msg = document.querySelector(".message");
+  let sendBtn = document.querySelector(".send-btn");
+
+  sendBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (name.value == "" || email.value == "" || msg.value == ""){
+          emptyerror();
+      } else {
+          sendmail (name.value, email.value, msg.value);
+          success();
+      }
+  });
+}
+validate();
+
+function sendmail(name,email,msg){
+  emailjs.send("service_m8bonqe","template_wtg6f5w",{
+      from_name: email,
+      to_name: name,
+      message: msg,
+      });
+}
+
+function emptyerror() {
+  swal({
+      title: "Oh No....!",
+      text: "Fields can not be empty!",
+      icon: "error",
+      // icon: "success",
+      // button: "error!",
+    });
+}
+
+function success() {
+  swal({
+      title: "Email sent sucessfully!",
+      // text: "We try to replay in 24 hours!",
+  text: "Thanks for connecting, I try to replay asap!",
+      icon: "success",
+    });
+}
