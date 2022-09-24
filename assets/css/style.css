@@ -248,6 +248,11 @@ a:hover {
 #blog-home{
     padding-top: 8rem;
 }
+.fa-arrow-down{
+    font-size: small;
+    font-weight: 100;
+    color: #6610f2;
+}
 .first-blog-title{
     padding-top: 2rem;
 }
