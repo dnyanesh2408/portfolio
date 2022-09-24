@@ -81,10 +81,9 @@ hr{
     border-bottom: none;
 }
 section{
-    /* padding: 50px 10%; */
+    padding: 50px 10%;
     /* padding: 50px 12%; */
     /* padding: 60px 10%; */
-    padding: 50px 9%;
     margin: 0 auto;
 }
 #intro{
