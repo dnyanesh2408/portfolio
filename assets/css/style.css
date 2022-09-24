@@ -314,7 +314,6 @@ a:hover {
     padding-top: 1rem;
     padding-bottom: 22rem;
 }
-
 .btn{
     font-size: small;
     color: #f8f9fa;
@@ -357,10 +356,6 @@ a:hover {
 }
 #post-content-head{
     color: #000;
-}
-#note{
-    font-size: small;
-    color: #7c7c7c;
 }
 /* Second Post Page */
 #blog-second-post{
@@ -410,7 +405,7 @@ a:hover {
 }
 
 @media(max-width:576px) {
-    .name, #p{
+    .name{
         /* font-family: 'Poppins', sans-serif; */
         font-weight: 400;
         /* font-size: 1rem; */
