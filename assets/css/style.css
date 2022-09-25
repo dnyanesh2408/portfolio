@@ -398,9 +398,9 @@ a:hover {
 }
 
 @media(max-width:992px){
-    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
-    }
+    } */
     .view-all{
         font-size: small;
     }
@@ -420,9 +420,9 @@ a:hover {
         font-size: medium;
         width: 96%;
     }
-    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
-    }
+    } */
     .view-all a{
         font-weight: 400;
         font-size: small;
