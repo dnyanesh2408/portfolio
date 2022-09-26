@@ -397,6 +397,12 @@ a:hover {
     background-color: rgba(85, 85, 85, 0.795);
 }
 
+.about{
+    padding-left: 0;
+}
+.skill{
+    padding-left: 0;
+}
 @media(max-width:992px){
     /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
