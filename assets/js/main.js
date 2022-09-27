@@ -71,3 +71,10 @@ function success() {
       icon: "success",
     });
 }
+
+
+$(".navbar-collapse a").click(function () {
+  $(".navbar-collapse").collapse("hide");
+});
+
+// update
