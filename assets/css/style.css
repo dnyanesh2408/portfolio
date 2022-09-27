@@ -51,8 +51,7 @@ body, html{
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
-#hero{
-    /* background-color: rgb(39, 39, 39); */
+#header{
     background-color: rgb(39, 39, 39);
     color: #fff;
     padding-top: 1rem;
@@ -66,24 +65,17 @@ hr{
     color: #fff;
 }
 .social-link a{
-    /* color: #444452d0; */
-    /* color: #595959d0; */
     color: #fff;
     margin: 4px;
     text-decoration: none;
 }
 .social-link a:hover{
-    /* color: #444452d0; */
-    /* color: #bd075fd0; */
     color: #c7c7c7f7;
-    /* text-decoration: underline; */
     text-decoration: none;
     border-bottom: none;
 }
 section{
-    padding: 80px 10%;
-    /* padding: 50px 12%; */
-    /* padding: 60px 10%; */
+    padding: 50px 10%;
     margin: 0 auto;
 }
 #intro{
@@ -91,21 +83,14 @@ section{
     margin-bottom: 1rem;
 }
 #home{
-    /* padding-top: 0; */
-    /* padding-top: 10rem; */
-    padding-top: 6rem;
+    padding-top: 8rem;
 }
 #get-in-touch{
-    /* background: #0d6efd; */
-    /* background: #4407e0d3; */
     background-color: var(--bs-yellow);
-    /* color: #f8f9fa; */
     color: #000;
     border-radius: 10px;
 }
 #get-in-touch:hover{
-    /* background-color: #198754; */
-    /* background-color: #6d3bebfa; */
     background-color: var(--bs-orange);
     transition: all 0.5s ease-in-out;
 }
@@ -128,8 +113,6 @@ section{
     width: auto;
 }
 .hello{
-    /* font-size: x-large; */
-    /* font-size: 2.5rem; */
     font-size: 1.5rem;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
@@ -137,7 +120,6 @@ section{
 }
 .name{
     color: rgb(112, 112, 112);
-    /* font-size: 2.5rem; */
     font-size: 1.5rem;
 } 
 .home-content{
@@ -145,22 +127,12 @@ section{
     color: #333333ba;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    /* font-size: x-large; */
-    /* font-size: 2.5rem; */
     font-size: 1.5rem;
     width: 50%;
 }
-/* p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-} */
 .fa-laptop-code{
     color: #333333ba;
 }
-/* Currently not used */
-
-/* End currently not used */
-
 .fa-hand-point-right{
     color: rgb(219, 156, 74);
 }
@@ -168,60 +140,42 @@ section{
     font-size: small;
     font-weight: 400;
     margin-top: 2rem;
-    /* margin-bottom: 1.5rem; */
 }
 #get-in-touch a{
     color: rgb(17, 59, 158);
     text-decoration: none;
 }
 #get-in-touch a:hover{
-    /* text-decoration: underline; */
     cursor: pointer;
     transition: all 0.5sec ease-in-out;
 }
 
 .badge{
-    /* background: var(--bs-gray);
-    color: var(--bs-light); */
     background: var(--bs-light);
     color: var(--bs-dark);
     font-size: 500;
     margin: 4px;
     border: 1px solid rgb(52, 124, 163);
     border-radius: 5rem;
-    /* font-weight: 400; */
 }
 
 #p{
-    /* color: #5c5c5c; */
     color: #4b4b4b;
-    /* font-family: 'Montserrat', sans-serif; */
 }
 
 a {
-    /* color: #5a656e; */
     color: rgb(32, 32, 32);
     text-decoration: none;
 }
 
 a:hover {
-    /* color: #dd5a92;
-    color: #d43076; */
-
-    /* color: rgb(3, 87, 183); */
-    /* color: rebeccapurple; */
-    color: #00f;
-    /* text-decoration: underline; */
     transition: all 0.3s ease-in-out;
-    border-bottom: 1px solid #00f; /* or whatever colour you'd prefer */
-    /* outline: 3px solid black; */
+    border-bottom: 1px solid #00f;
 }
 /* Contact  */
 .fa-location-arrow{
     font-size: small;
 }
-  
-/* Contact Form */
 #contact_form-content{
     padding-top: 0;
     padding-bottom: 1rem;
@@ -232,7 +186,6 @@ a:hover {
     width: 100%;
     display: grid;
     row-gap: 1rem;
-  
 }
 .contact-form input, .contact-form textarea{
     border: none;
@@ -248,12 +201,10 @@ a:hover {
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 500;
-    /* text-transform: uppercase; */
     padding: 10px;
     background: var(--main-color);
     cursor: pointer;
 }
-  
 .contact-form .send-btn{
     border-radius: 10px;
     color: white;
@@ -261,26 +212,12 @@ a:hover {
 }
 .contact-form .send-btn:hover{
     background: #546eff;
-    /* background: #d43076; */
     transition: 0.3s all linear ;
 }
-/* End Contact Form */
-/* End Contact */
-
-/* Not in used */
-#project_details{
-    padding: 100px 10%;
-    /* color: #1036f2c4; */
-}
-.project_title{
-    color: #1036f2c4;
-}
-/* End not in used */
-
+/* Blog Main Page */
 .view-all{
     font-size: small;
 }
-
 /* Blog Page Home */
 #blog-home{
     padding-top: 8rem;
@@ -317,7 +254,6 @@ a:hover {
 }
 #blog-title{
     text-align: justify;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Poppins', sans-serif; 
 }
 .post-date{
@@ -336,7 +272,6 @@ a:hover {
     color: teal;
 }
 #post-link:hover{
-    /* text-decoration: underline; */
     transition: all 0.3s ease-in-out;
     border-bottom: 1px solid teal;
 }
@@ -347,21 +282,15 @@ a:hover {
 #blog-second-post{
     padding-top: 8rem;
 }
-  
 /* Third Post Page */
-  
 .third-post{
     padding-top: 1rem;
     padding-bottom: 22rem;
 }
-
-/* End Blog First Post Page */
-
 /* Footer */
 #footer{
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    /* background-color: #000; */
 }
 .hr-footer{
     color: #000;
@@ -373,7 +302,6 @@ a:hover {
     color: #6c6c6c;
     line-height: 0.2rem;
 }
-/* End Footer */
 /* Back to top button */
 #myBtn {
     display: none;
@@ -381,20 +309,16 @@ a:hover {
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    /* font-size: 18px; */
     font-size: 12px;
     border: none;
     outline: none;
-    /* background-color: red; */
     background-color: rgba(30, 60, 210, 0.674);
     color: white;
     cursor: pointer;
-    /* padding: 15px; */
     padding: 10px;
     border-radius: 4px;
 }
 #myBtn:hover {
-    /* background-color: #555; */
     background-color: rgba(85, 85, 85, 0.795);
 }
 
@@ -405,31 +329,24 @@ a:hover {
     padding-left: 0;
 }
 @media(max-width:992px){
-    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
-        text-align: left;
-    } */
     .view-all{
         font-size: small;
     }
+    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+        text-align: left;
+    } */
 }
 
 @media(max-width:576px) {
     .name{
-        /* font-family: 'Poppins', sans-serif; */
         font-weight: 400;
-        /* font-size: 1rem; */
         font-size: medium;
     }
     .home-content{
-        /* font-family: 'Poppins', sans-serif; */
         font-weight: 400;
-        /* font-size: 1rem; */
         font-size: medium;
         width: 96%;
     }
-    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
-        text-align: left;
-    } */
     .view-all a{
         font-weight: 400;
         font-size: small;
@@ -437,10 +354,9 @@ a:hover {
     .footer p{
         text-align: center;
     }
-
+    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+        text-align: left;
+    } */
 }
-
-
-/* update */
 
 
