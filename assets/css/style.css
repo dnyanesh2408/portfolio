@@ -75,7 +75,7 @@ hr{
     border-bottom: none;
 }
 section{
-    padding: 50px 10%;
+    padding: 50px 8%;
     margin: 0 auto;
 }
 #intro{
@@ -367,7 +367,7 @@ a:hover {
         text-align: left;
     }
     .about, .skill, .project, .blog, .contact{
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 }
 
