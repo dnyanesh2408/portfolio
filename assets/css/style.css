@@ -344,6 +344,9 @@ a:hover {
     #project h3, #blog h3, #contact h3{
         margin-left: -0.1rem;
     }
+    .footer p{
+        text-align: center;
+    }
 }
 
 @media(max-width:576px) {
@@ -367,7 +370,7 @@ a:hover {
         text-align: left;
     }
     .about, .skill, .project, .blog, .contact{
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
 }
 
