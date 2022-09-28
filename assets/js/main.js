@@ -71,3 +71,24 @@ function success() {
       icon: "success",
     });
 }
+
+// // preloader
+// $(document).ready(function() {
+//     setTimeout(()=>{
+//         $('#Preloader').addClass('loader');
+//     },1000);
+//     setTimeout(()=>{
+//         $('#Preloader').remove('loader');
+//     },500);
+//   })
+
+// preloader
+$(document).ready(function() {
+  setTimeout(()=>{
+      $('#Preloader').addClass('loader');
+  },300);
+  setTimeout(()=>{
+      $('#Preloader').remove('loader');
+  },150);
+})
+
