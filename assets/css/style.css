@@ -335,6 +335,15 @@ a:hover {
     #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
+    #about h3{
+        margin-left: -0.8rem;
+    }
+    #skill h3{
+        margin-left: -0.5rem;
+    }
+    #project h3, #blog h3, #contact h3{
+        margin-left: -0.1rem;
+    }
 }
 
 @media(max-width:576px) {
