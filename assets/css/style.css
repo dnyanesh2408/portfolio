@@ -332,9 +332,9 @@ a:hover {
     .view-all{
         font-size: small;
     }
-    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
-    } */
+    }
 }
 
 @media(max-width:576px) {
@@ -354,9 +354,12 @@ a:hover {
     .footer p{
         text-align: center;
     }
-    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
-    } */
+    }
+    .about, .skill, .project, .blog, .contact{
+        margin-left: 2rem;
+    }
 }
 
 
