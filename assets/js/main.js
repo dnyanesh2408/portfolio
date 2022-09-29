@@ -91,3 +91,7 @@ $(document).ready(function() {
       $('#Preloader').remove('loader');
   },150);
 })
+
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
