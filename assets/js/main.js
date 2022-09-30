@@ -105,16 +105,6 @@ $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
 
-// on scroll nabvar hide
-// Store navbar classes
-// var navClasses = document.getElementById('navbar').classList;
 
-// function downAction() {
-//   navClasses.remove('open');
-//   navClasses.add('collapse');
-// }
+// =========================================================
 
-// function upAction() {
-//   navClasses.remove('collapse');
-//   navClasses.add('open');
-// }
