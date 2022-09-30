@@ -1,3 +1,12 @@
+// Script for when click nav toggler outside on screen then navbar collapse
+window.onload = function () {
+	document.addEventListener("click", function (event) {
+		// if the clicked element isn't child of the navbar, you must close it if is open
+		if (!event.target.closest("#navbar") && document.getElementById("navbarNav").classList.contains("show")) {
+			document.getElementById("menu_button").click();
+		}
+	});
+}
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))

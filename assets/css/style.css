@@ -110,8 +110,18 @@ hr{
 }
 section{
     /* padding: 50px 8%; */
-    padding: 90px 10%;
-    margin: 0 auto;
+    /* padding: 90px 10%;
+    margin: 0 auto; */
+    scroll-margin-top: 60px;
+}
+section{
+    /* scroll-margin-top: 50px; */
+    /* padding: 0.25em; */
+    /* margin-bottom: 10em; */
+
+    scroll-margin-top: 70px;
+    min-height: 5em;
+    padding: 2em;
 }
 #intro{
     margin-top: 1rem;
