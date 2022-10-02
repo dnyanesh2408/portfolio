@@ -50,8 +50,12 @@ body, html{
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
+.navbar-brand{
+   color: orangered;
+}
 .navbar-brand:hover{
     border-bottom: none;
+    color: orangered;
 }
 .navbar-toggler{
     /* color: rgb(0 0 0 / 0%); */
@@ -455,7 +459,7 @@ section{
         margin-left: -0.8rem;
     }
     #skill h3{
-        margin-left: -0.5rem;
+        margin-left: -0.6rem;
     }
     #project h3, #blog h3, #contact h3{
         margin-left: -0.1rem;
@@ -487,6 +491,11 @@ section{
     }
     .about, .skill, .project, .blog, .contact{
         margin-left: 0.5rem;
+    }
+    ul{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 1rem;
     }
 }
 
