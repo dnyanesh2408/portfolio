@@ -229,30 +229,51 @@ section{
     row-gap: 1rem;
 }
 .contact-form input, .contact-form textarea{
-    border: none;
+    /* border: none;
     outline: none;
     font-size: 0.9rem;
     padding: 10px;
     color: black;
     background: #f8f8f8;
-    border-radius: 0.4rem;
+    border-radius: 0.4rem; */
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    padding: 10px;
+    color: black;
+    /* background: #f8f8f8; */
+    background: #f8f8f82c;
+    border: 0.5px solid rgba(19, 19, 19, 0.763);
+    border-radius: 0;
 }
 .contact-form .send-btn{
-    width: 100px;
+    /* width: 100px;
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 500;
     padding: 10px;
     background: var(--main-color);
+    cursor: pointer; */
+    width: 80px;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 8px;
+    background: var(--main-color);
     cursor: pointer;
 }
 .contact-form .send-btn{
-    border-radius: 10px;
+    /* border-radius: 10px;
     color: white;
-    background: #7c7c7c;
+    background: #7c7c7c; */
+    border: 0.5px solid rgba(19, 19, 19, 0.763);
+    border-radius: 0;
 }
 .contact-form .send-btn:hover{
-    background: #546eff;
+    /* background: #546eff9a;
+    transition: 0.3s all linear ; */
+    color: #f8f8f8;
+    background: #0202029a;
     transition: 0.3s all linear ;
 }
 /* Blog Main Page */
