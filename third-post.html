@@ -22,7 +22,7 @@
 
   <!-- Navbar -->
   <!-- <nav class="navbar autohide navbar-expand-lg bg-dark fixed-top shadow-sm p-3 mb-5 bg-body"> -->
-    <nav class="navbar autohide navbar-expand-lg bg-white fixed-top shadow-sm p-3 mb-5" id="navbar">
+    <nav class="navbar autohide navbar-expand-lg bg-light fixed-top shadow-sm p-3 mb-5" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">Dk.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="menu_button">
@@ -84,72 +84,52 @@
     <i class="fa-solid fa-arrow-up"></i>
   </button>
 
-        <!-- Blog Page Home -->
-        <section id="blog-home">
+      <main id="main">
+        <!-- Blog - First-Post -->
+        <section id="blog-second-post" class="blog section-bg">
           <div class="container">
+            <div class="row">
               <div class="col-lg-6">
-                <a class="btn btn-primary btn-sm" href="./index.html" role="button"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+                <!-- Home Back -->
+                <a class="btn btn-primary btn-sm" href="./index.html#blog" role="button"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+                <!--End Home Back -->
+                <hr id="hr-post">
+                <div class="blog-title shadow p-3" id="blog-title">
 
-                <div class="blog-title">
-                  <h1>Dnyanesh Kolhe's Blog</h1>
-                  <hr>
-                  <!-- <p>
-                    <h5 class="first-blog-title">
-                      <a href="./first-post.html">Hello World ! <i class="bi bi-arrow-up-right"></i> 
-                      </a>
-                    </h5>
-                    <p id="p">The almost every programmer journey start with hello world program...
-                    </p>
-                    <h5 class="second-blog-title"><a href="./second-post.html">What is Salesforce ?<i class="bi bi-arrow-up-right"></i></a></h5>
-                    <p id="p">Salesforce is a cloud platform...</p>
-                </p> -->
-                <div class="card shadow-sm p-2 rounded" style="width: auto;">
-                  <img src="./assets/img/Hello World !.png" class="img-thumbnail" id="blog_list_img" alt="Hello_World !">
-                  <div class="card-body">
-                    <h5>Hello World !</h5>
-                    <p class="card-text">The almost every programmer journey start with hello world program...</p>
-                    <p><a href="./first-post.html">Read More <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                  </div>
+                  <h4>Portfolio Website</h4>
+
+                  <p class="post-date"><span>Post on 2 oct 2022.(Upating)</span> | 0 min read</p>
+
+                  <p id="post-content">
+                    How to built developer portfolio website....
+                  </p>
+
+                  <h6 id="post-content-head">Nothing To Display..</h6>
+
+                  <p><img src="./assets/img/coming-soon.png" class="img-thumbnail img-height" alt=""></p>
+
+                  <a id="post-link" href="#" target="_blank">Original Post</a> | <a id="post-link" href="#" target="_blank">Refrence</a>
+                  <hr id="hr-post">
                 </div>
               </div>
-              <div class="card shadow-sm p-2 rounded" style="width: auto;">
-                <img src="./assets/img/Salesforce.png" class="img-thumbnail" id="blog_list_img" alt="Salesforce">
-                <div class="card-body">
-                  <h5>What is Salesforce</h5>
-                  <p class="card-text">Salesforce is cloud platform...</p>
-                  <p><a href="./second-post.html">Read More <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                </div>
-              </div>
-              <div class="card shadow-sm p-2 rounded" style="width: auto;">
-                <img src="" class="img-thumbnail" id="blog_list_img" alt="Dev Portfolio">
-                <div class="card-body">
-                  <h5>Portfolio Website</h5>
-                  <p class="card-text">How to built developer portfolio website....</p>
-                  <p><a href="./third-post.html">Read More <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                </div>
             </div>
           </div>
         </section>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-    <!-- Footer -->
-    <section id="footer">
+        <!-- End Blog - Second-Post -->
+      
+      <!-- Footer -->
+      <section id="footer">
         <hr class="hr-footer">
         <div class="footer">
-          <p>Design and Developed by</p>
+          <p>Design & Developed by</p>
           <p>Dnyanesh Kolhe | 2022</p>
-          <p></p>
         </div>
-    </section>
+      </section>
+    <!-- End Footer -->
 
-  <!-- Bootstrap Js -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Main Js -->
-  <script src="./assets/js/main.js"></script>
+    <!-- Boostrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main Js -->
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
