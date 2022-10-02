@@ -51,11 +51,11 @@ body, html{
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 .navbar-brand{
-   color: orangered;
+   color: black;
 }
 .navbar-brand:hover{
+    color: black;
     border-bottom: none;
-    color: orangered;
 }
 .navbar-toggler{
     /* color: rgb(0 0 0 / 0%); */
@@ -462,7 +462,7 @@ section{
         margin-left: -0.6rem;
     }
     #project h3, #blog h3, #contact h3{
-        margin-left: -0.1rem;
+        margin-left: -0.2rem;
     }
     .footer p{
         text-align: center;
