@@ -357,13 +357,17 @@ section{
 /* Online Presence */
 #online{
     color: #007bff;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
-.social-links{
-    background-color: var(--bs-light);
-    color: rgba(94, 94, 94, 0.986);
-    padding: 0.5rem;
-    border-radius: 8px;
+#social-links a{
+    color: rgba(96, 96, 96, 0.986);
+    padding: 0.1rem;
+    font-size: small;
+    font-weight: 400;
+}
+#social-links a:hover{
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 /* Footer */
 #footer{
