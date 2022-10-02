@@ -284,6 +284,14 @@ section{
 #blog-home{
     padding-top: 8rem;
 }
+.card{
+    margin-bottom: 2rem;
+}
+#blog_list_img{
+    height: 250px;
+    /* width: auto; */
+    width: 250px;
+}
 .fa-arrow-down{
     font-size: small;
     font-weight: 100;
