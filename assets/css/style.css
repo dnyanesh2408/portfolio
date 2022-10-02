@@ -103,7 +103,7 @@ a:hover {
     text-decoration: none;
 }
 hr{
-    color: #fff;
+    color: rgb(75, 75, 75);
 }
 .social-link a{
     color: #fff;
@@ -115,12 +115,12 @@ hr{
     text-decoration: none;
     border-bottom: none;
 }
-section{
-    /* padding: 50px 8%; */
-    /* padding: 90px 10%;
-    margin: 0 auto; */
+/* section{
+    padding: 50px 8%;
+    padding: 90px 10%;
+    margin: 0 auto;
     scroll-margin-top: 60px;
-}
+} */
 section{
     /* scroll-margin-top: 50px; */
     /* padding: 0.25em; */
