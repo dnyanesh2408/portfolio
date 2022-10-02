@@ -99,7 +99,7 @@ a:hover {
     padding-top: 1rem;
     padding-bottom: 1rem;
 } */
-#logo:hover{
+/* #logo:hover{
     text-decoration: none;
 }
 hr{
@@ -114,7 +114,7 @@ hr{
     color: #c7c7c7f7;
     text-decoration: none;
     border-bottom: none;
-}
+} */
 /* section{
     padding: 50px 8%;
     padding: 90px 10%;
@@ -158,9 +158,6 @@ section{
 }
 .container{
     width: 100%;
-}
-#socail{
-    width: 50%;
 }
 .img-fluid{
     border-radius: 50%;
@@ -357,6 +354,17 @@ section{
     padding-top: 1rem;
     padding-bottom: 22rem;
 }
+/* Online Presence */
+#online{
+    color: #007bff;
+    margin-bottom: 1em;
+}
+.social-links{
+    background-color: var(--bs-light);
+    color: rgba(94, 94, 94, 0.986);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
 /* Footer */
 #footer{
     padding-top: 1rem;
@@ -412,11 +420,6 @@ section{
     justify-content: center;
     align-items: center;
 }
-
-#Preloader img{
-    width: 5rem;
-}
-
 #Preloader img{
     width: 5rem;
 }
@@ -424,57 +427,6 @@ section{
     visibility: hidden;
     opacity: 0;
 }
-
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-/* #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-    overflow: hidden;
-    background: #fff;
-  }
-  
-  #preloader:before {
-    content: "";
-    position: fixed;
-    top: calc(50% - 30px);
-    left: calc(50% - 30px);
-    border: 6px solid #5fcf80;
-    border-top-color: #fff;
-    border-bottom-color: #fff;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
-  }
-  
-  @-webkit-keyframes animate-preloader {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes animate-preloader {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  } */
-
-
 
 /* Media Query */
 @media(max-width:992px){
