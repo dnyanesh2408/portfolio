@@ -73,12 +73,13 @@ body, html{
 } */
 .nav-link {
     font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     color: black;
 }
 .nav-link:hover{
     text-decoration: underline;
     color: var(--bs-pink);
+    font-weight: 600;
     border-bottom: none;
     transition: all 0.3s ease-in-out;
 }
