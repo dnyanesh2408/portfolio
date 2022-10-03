@@ -73,13 +73,13 @@ body, html{
 } */
 .nav-link {
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
 }
 .nav-link:hover{
+    font-weight: 600;
     text-decoration: underline;
     color: var(--bs-pink);
-    font-weight: 600;
     border-bottom: none;
     transition: all 0.3s ease-in-out;
 }
@@ -481,9 +481,6 @@ section{
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin-left: 1rem;
-    }
-    .section{
-        margin-right: 0.1rem;
     }
 }
 
