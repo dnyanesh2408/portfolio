@@ -433,7 +433,11 @@ section{
     visibility: hidden;
     opacity: 0;
 }
-
+/* 404 Html Page */
+#error{
+    padding-top: 8rem;
+    padding-bottom: 25rem;
+}
 /* Media Query */
 @media(max-width:992px){
     .view-all{
@@ -484,11 +488,12 @@ section{
         padding-bottom: 1rem;
         margin-left: 1rem;
     }
-    blog-first-post{
+    #blog-first-post, #blog-second-post, #blog-third-post{
         margin-right: 0.5rem;
     }
-    blog-second-post{
-        margin-right: 0.5rem;
+    #error{
+        padding-top: 8rem;
+        padding-bottom: 15rem;
     }
 }
 

@@ -4,48 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dnyanesh Kolhe - 404 Error</title>
+    <title>Dnyanesh Kolhe Portfolio</title>
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Aos Libraray -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        #error{
-            padding-top: 30vh;
-            color: teal;
-            background-color: aliceblue;
-            text-align: center;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-weight: bold;
-            font-size: larger;
-        }
-        #contact{
-            padding-top: 56vh;
-            background-color: aliceblue;
-            text-align: center;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-weight: bold;
-        }
-        #contact a{
-            text-decoration: none;
-            color: tomato;
-        }
-        #contact a:hover{
-            color: thistle;
-        }
-    </style>
 </head>
 <body>
-    <section id="error">
-        <p>404 Error !</p>
-        <p>Thanks for visting !</p>
-        <p>Files are updating or remove...</p>
-    </section>
-    <section id="contact">
-        Contact: <a href="mailto:dnyaneshkolhe@gmial.com">Send Mail</a>
-    </section>
-</body>
-</html>
 
-<!-- update -->
+  <!-- Navbar -->
+  <!-- <nav class="navbar autohide navbar-expand-lg bg-dark fixed-top shadow-sm p-3 mb-5 bg-body"> -->
+    <nav class="navbar autohide navbar-expand-lg bg-light fixed-top shadow-sm p-3 mb-5" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Dk.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="menu_button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Header -->
+<!-- <section class="fixed-top shadow-sm" id="header">
+  <div class="container">
+    <div class="social-link">
+    <h6>
+      <a href="./index.html" id="logo">Dk.</a>
+
+      <span class="social-links float-end">
+        <a href="https://github.com/dnyanesh2408"><i class="fa-brands fa-github"></i></a>
+
+        <a href="https://in.linkedin.com/in/dnyaneshkolhe"><i class="fa-brands fa-linkedin"></i></a>
+
+        <a href="https://trailblazer.me/id/dkolhe21"><i class="fa-solid fa-cloud"></i></a>
+
+        <a href="./blog.html"><i class="fa-solid fa-blog"></i></a>
+      </span>
+    </h6>
+    <hr>
+  </div>
+</div>
+</section> -->
+<!-- End Header -->
+
+  <!-- Back to Top Button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+      <main id="main">
+        <!-- Blog - First-Post -->
+        <section id="error">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <!-- Home Back -->
+                <a class="btn btn-primary btn-sm" href="./index.html#blog" role="button"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+                <!--End Home Back -->
+                <h1 class="text-center">404 !</h1>
+                <h6 class="text-center">Page Not Found</h6>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Blog - Second-Post -->
+      
+      <!-- Footer -->
+      <section id="footer">
+        <hr class="hr-footer">
+        <div class="footer">
+          <p>Design & Developed by</p>
+          <p>Dnyanesh Kolhe | 2022</p>
+        </div>
+      </section>
+    <!-- End Footer -->
+
+    <!-- Boostrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main Js -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

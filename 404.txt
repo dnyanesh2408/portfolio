@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dnyanesh Kolhe - 404 Error</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #error{
+            padding-top: 30vh;
+            color: teal;
+            background-color: aliceblue;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            font-size: larger;
+        }
+        #contact{
+            padding-top: 56vh;
+            background-color: aliceblue;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+        }
+        #contact a{
+            text-decoration: none;
+            color: tomato;
+        }
+        #contact a:hover{
+            color: thistle;
+        }
+    </style>
+</head>
+<body>
+    <section id="error">
+        <p>404 Error !</p>
+        <p>Thanks for visting !</p>
+        <p>Files are updating or remove...</p>
+    </section>
+    <section id="contact">
+        Contact: <a href="mailto:dnyaneshkolhe@gmial.com">Send Mail</a>
+    </section>
+</body>
+</html>
+
+<!-- update -->
