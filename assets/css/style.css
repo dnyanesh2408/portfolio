@@ -351,9 +351,8 @@ section{
     padding-top: 8rem;
 }
 /* Third Post Page */
-.third-post{
-    padding-top: 1rem;
-    padding-bottom: 22rem;
+#blog-third-post{
+    padding-top: 8rem;
 }
 /* Online Presence */
 #online{
@@ -481,6 +480,12 @@ section{
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin-left: 1rem;
+    }
+    blog-first-post{
+        margin-right: 0.5rem;
+    }
+    blog-second-post{
+        margin-right: 0.5rem;
     }
 }
 
