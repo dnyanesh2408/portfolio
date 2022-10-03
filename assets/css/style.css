@@ -481,6 +481,9 @@ section{
         padding-bottom: 1rem;
         margin-left: 1rem;
     }
+    .section{
+        margin-right: 0.1rem;
+    }
 }
 
 
